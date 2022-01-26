@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="Home.css">
 </head>
 <body>
-<div>
+<div class="container">
     <header>
-        <div id="Head">
-            
-                <a href="Home.html"><img src="Shubham.png" alt="Shubham Kumar Singh" >
+        <div id="logo">
+                <a href="Home.html">Shubham Kumar Singh
                 </a>
         </div>
         <div id="Search">
@@ -21,16 +20,33 @@
                 <button onclick="document.location='Home.html'">Search</button>
             </form>
         </div>
+        
 
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="#"> Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact</a>
+                    <ul class="submenu">
+                        <li><a href="#">Mail</a></li>
+                        <li><a href="#">Phone No.</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
+        
     </header>
+    <section id="pic-a" >
+        <img src="pic1.jpg" alt="portfolio" >
+    </section>
+    <section id="pic-b">
+        <img src="pic2.jpg" alt="portfolio">
+    </section>
+    <section >
+        <img src="pic3.jpg" alt="portfolio" id="pic-c">
+    </section>
+
 </div>    
     
 </body>
