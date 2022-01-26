@@ -1,20 +1,30 @@
-header{
+Header{
     width: 1000px;
     height: 300px;
+    background-color: #2fe79b;
+    border: 2px solid rgb(235, 130, 33);
+    border-radius: 2px;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#Search{
+    width: 240px;
+    height: 20px;
     background-color: #f2f2f2;
     border: 1px solid #ccc;
     border-radius: 2px;
-    margin: 0 auto;
+    margin: 0px;
     margin-top: 20px;
-    padding: 1px;
+    padding: 0px;
 }
 nav{
-    width: 990px;
+    width: 265px;
     height: 100px;
-    background-color: #f2f2f2;
+    background-color: #4493fa;
     border: 1px solid #ccc;
     border-radius: 2px;
-    margin: 0 auto;
+    
     margin-top: 20px;
     padding: 1px;
 }
